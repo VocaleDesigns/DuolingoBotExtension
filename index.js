@@ -1,21 +1,3 @@
-// ==UserScript==
-// @name         Duolingo-Cheat-Tool
-// @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  Auto answer Duolingo script!
-// @author       tranphuquy19
-// @match        https://www.duolingo.com/lesson*
-// @match        https://www.duolingo.com/learn*
-// @icon         https://www.google.com/s2/favicons?domain=duolingo.com
-// @grant        none
-// @run-at       document-end
-// ==/UserScript==
-
-// WARNING/DISCLAIMER: Cheating can lead to account ban. The script is research-oriented in programming.
-// Enjoy learning new languages. Thank you!
-// Update 2023-Aug-07: Fix bug, add new challenge types
-
-
 const DEBUG = true;
 let AUTO_PRACTICE = localStorage.getItem('AUTO_PRACTICE') === 'true' ? true : false; // earn exp by practice
 let mainInterval;
